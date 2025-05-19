@@ -2,11 +2,9 @@ import os
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-from DCPR_codes_final.main import Predict
+from DCPR_codes.main import Predict
 from math import pi
 
-def save_dataframe(data, filepath):
-    pd.DataFrame(data).to_csv(filepath, index=False)
 
 def generate_time_features(sample_count):
     t_inter = 24.0 / (sample_count - 1)
