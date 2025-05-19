@@ -8,7 +8,7 @@ The folders in the DCPR repository:
 
 - **Datasets**: 
 
-  a. **Synthetic datasets**: Twelve synthetic datasets differ in sampling frequency, circadian gene content, and noise conditions.
+  a. **Synthetic datasets**: Eighteen synthetic datasets differ in sampling frequency, circadian gene content, and noise conditions.
 
   b. **Real datasets**: Six datasets from Gene Expression Omnibus with diffrent Species, tissues and Sequencing Platforms and thirteen Alzheimer's disease datasets with different brain regions.
 
