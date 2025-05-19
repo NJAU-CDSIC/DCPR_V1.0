@@ -23,7 +23,7 @@ def run_pipeline(args):
     processed_data = load_and_preprocess_data(args.data_path, args.time_path, args.seedgene_path, args.output_dir)
     predicted_hours, last_observed = model_train_single(processed_data,[args.loss_parameters])
     adjusted_times, ground_truth_times = get_corrected_phase(predicted_hours, last_observed, processed_data,label='median',correct_way='start_phase',folder_name=args.output_dir)
-    analysis_groups = [{'tissue': 'SD4','condition': '60min_20_noise','replicate': 'rep1','true_times': {'DCPR': ground_truth_times},'pred_times': {'DCPR': adjusted_times}}]
+    analysis_groups = [{'tissue': 'GSE161566','condition': 'per1','replicate': 'per1','true_times': {'DCPR': ground_truth_times},'pred_times': {'DCPR': adjusted_times}}]
     AUC_values, median_absolute_errors = batch_process(analysis_groups, save_base_path=args.output_dir)
     
 
