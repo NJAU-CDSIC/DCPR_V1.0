@@ -3,12 +3,11 @@
 Time-series Gene Expression Preprocessing Pipeline
 
 This script performs comprehensive preprocessing of time-series gene expression data,
-including dimensionality reduction, period detection, noise reduction, and temporal
-alignment. The pipeline is designed for circadian rhythm analysis and other periodic
-biological processes.
+including dimensionality reduction, period detection, and temporal alignment. 
+The pipeline is designed for circadian rhythm analysis and other periodic biological processes.
 
 Key Features:
-1. Data standardization and noise detection
+1. Data standardization 
 2. PCA-based temporal ordering
 3. Constructing a reference time series
 4. Cosinor regression for periodic pattern detection
@@ -134,7 +133,7 @@ def standardize_expression_data(matrix, large_sample_threshold=2000):
         return (X - mean_vals) / std_dev, mean_vals, std_dev
     
     if matrix.shape[0] > large_sample_threshold:
-        return matrix  # Skip standardization for large samples
+        return matrix  
     else:
         standardized_data, _, _ = standardize(np.sin(matrix).T)
         return standardized_data.T
