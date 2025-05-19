@@ -25,7 +25,7 @@ import umap
 from sklearn.preprocessing import StandardScaler
 from CosinorPy import cosinor
 import matplotlib.pyplot as plt
-from DCPR_codes_final.data_shuffle import shuffle_time_series
+from DCPR_codes.data_shuffle import shuffle_time_series
 
 
 def get_seed_gene_data(matrix, seed_gene_table):
