@@ -9,12 +9,12 @@ import numpy as np
 import pandas as pd
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 
-from DCPR_codes_final.data_shuffle import shuffle_time_series
-from DCPR_codes_final.preprocess import load_and_preprocess_data
-from DCPR_codes_final.base import model_train_single
-from DCPR_codes_final.result import get_corrected_phase
+from DCPR_codes.data_shuffle import shuffle_time_series
+from DCPR_codes.preprocess import load_and_preprocess_data
+from DCPR_codes.base import model_train_single
+from DCPR_codes.result import get_corrected_phase
 from Visualization.Scripts import batch_process
-from DCPR_codes_final.make_dir import make_dir_all
+from DCPR_codes.make_dir import make_dir_all
 
 
 def run_pipeline(args):
