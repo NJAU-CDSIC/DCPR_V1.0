@@ -18,7 +18,7 @@ The folders in the DCPR repository:
 
 - **DCPR_codes**: Source code for DCPR model, and main.py is the main entrance of the DCPR framework.
 
-- **Visualization**: Scripts for data visualization, including Cumulative distribution functions (CDFs) for model performance evaluation, Gene expression fitting curves, and bar plots.
+- **Visualization**: Scripts for data visualization, including Cumulative distribution functions (CDFs) for model performance evaluation, Gene expression fitting curves, and Bar plots.
 
 - **Supplementary Files**: The detailed results for all the analysis in our study.
 
