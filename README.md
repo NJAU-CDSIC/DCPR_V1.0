@@ -48,7 +48,7 @@ Download the datasets from the folder Datasets.
 
 
 
-## 3. run
+## 3. Run
 
 To run the DCPR model, a gene expression matrix is required. Optionally, a time series corresponding to the samples and a list of seed genes can also be provided.
 
