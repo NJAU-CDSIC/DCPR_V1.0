@@ -900,7 +900,7 @@ def get_corrected_phase(
             - true_times: Provided or unchanged true times.
     """
     
-    (matrix_new, time_all_new, Y_values, error_values,
+    (matrix_new, time_all_new, Y_values, error_values, theta_umap_diff,
      Y_diff, Y_diff_mean, Y_std_error_values,
      Y_values_all, Amp_all, Phi_all, q_all) = processed_data
     
