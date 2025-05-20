@@ -50,7 +50,7 @@ def calculate_auc_mederr(true_times, pred_times, folder_name):
 
     output_dir = os.path.join(folder_name)
     os.makedirs(output_dir, exist_ok=True)
-    df = pd.DataFrame({'AUC': auc,'MedAE': mederr})
+    df = pd.DataFrame({'AUC': [auc],'MedAE': [mederr]})
     df.to_csv(f"{output_dir}/evaluate.csv", index=False)
     
     return auc, mederr, hrsoff, fracacc
