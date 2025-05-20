@@ -10,19 +10,25 @@ The folders in the DCPR repository:
 
   a. **Synthetic datasets**: Eighteen synthetic datasets differ in sampling frequency, circadian gene content, and noise conditions.
 
-  b. **Real datasets**: Six datasets from Gene Expression Omnibus with diffrent Species, tissues and Sequencing Platforms and thirteen Alzheimer's disease datasets with different brain regions.
+  b. **Real datasets**:
+  
+       1) Six GEO datasets with diffrent Species, tissues and Sequencing Platforms.
+  
+       2) Thirteen Alzheimer's disease datasets with different brain regions.
 
-- **DCPR_codes**: Main code file for the DCPR model.
+- **DCPR_codes**: Source code for DCPR model, and main.py is the main entrance of the DCPR framework.
 
-- **Visualization**: The directory contains all graphical outputs generated during analysis, including Cumulative distribution functions (CDFs) for model performance evaluation, Gene expression fitting curves, and bar plots.
+- **Visualization**: Scripts for data visualization, including Cumulative distribution functions (CDFs) for model performance evaluation, Gene expression fitting curves, and bar plots.
 
 - **Supplementary Files**: The detailed results for all the analysis in our study.
 
-- **SOTA**: Comparative methods used in the contrast experiments:
+- **SOTA**: Three representative models used in the comparative study:
 
-  ​	CYCLOPS/Cyclum: https://github.com/KChen-lab/Cyclum.git
+  ​	Cyclum: https://github.com/KChen-lab/Cyclum.git
 
   ​	CHIRAL: https://github.com/naef-lab/CHIRAL.git
+
+    (The code for CYCLOPS included in Cyclum/cyclum/models)
 
 ---
 
