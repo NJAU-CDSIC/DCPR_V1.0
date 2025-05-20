@@ -574,6 +574,11 @@ def load_and_preprocess_data(data_path, time_path, seedgene_path, output_dir):
     data = pd.read_csv(data_path)
     if time_path is not None:
         times = pd.read_csv(time_path)
+    elif time_path == 'time':
+        times = np.array(data.columns[1:])
+        times = pd.DataFrame(times.astype(float).T)
+    else:
+        times = None
     else:
         times = None
     if seedgene_path is not None:
