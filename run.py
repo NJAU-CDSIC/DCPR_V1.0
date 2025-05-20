@@ -30,7 +30,7 @@ def run_pipeline(args):
 def parse_args():
     parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
     parser.add_argument('--data_path', default='Datasets/Real datasets/GEO datasets/GSE161566.csv')
-    parser.add_argument('--time_path', default='Datasets/Real datasets/GEO datasets/GSE161566_time.csv')
+    parser.add_argument('--time_path', default='time')
     parser.add_argument('--seedgene_path',default='Supplementary files/Seed genes/GSE161566_seed_genes.xlsx')
     parser.add_argument('--output_dir', default='results_final')
     parser.add_argument('--loss_parameters', nargs='+', type=int, default=[0,0,0,0,0,1,0,0,0,1,0,0,0,1,1,1],
