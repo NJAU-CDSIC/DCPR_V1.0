@@ -81,20 +81,11 @@ To run the DCPR model, the input parameters include expression matrix X, time st
 
 --Command line:
 
-```
-python run.py 
-```
---Running the HNSPPI model requires two edgelist files (one is for positive samples, and the other is for negative samples) and a csv file for the  amino acid sequences of proteins.
-
---Command line:
-
-run main.py script with --input1 <positive edgelist> --input2 <negative edgelist> --output <output file> --species <species name> --seed <seed>
-  
---Model output: will generate a file called results.csv
-  
+python run.py --data_path --time_path --seedgene_path --output_dir 
+ 
 --For example: 
   
-python main.py --input1 data/mouse/mouse_pos.edgelist --input2 data/mouse/mouse_neg.edgelist --output embeddings/mouse --species ‘mouse’ --seed 0
+python run.py --data_path data/GSE161566.csv --time_path data/GSE161566_time.csv --seedgene_path data/GSE161566_seed_genes.xlsx --output_dir results/results_final
 
 ## 4.  Output
 
@@ -112,4 +103,9 @@ All outputs are saved in the folder results_final:
 
 git clone https://github.com/NJAU-CDSIC/DCPR_V1.0.git
 
+
+
+## 6.  Execute the code cell by cell in the Python interactive window:
+  
+run run.ipynb with Jupyter code cells
 
