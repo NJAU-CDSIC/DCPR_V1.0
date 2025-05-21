@@ -12,11 +12,15 @@ The folders in the DCPR repository:
 
   b. **Real datasets**:
   
-     1) Six GEO datasets with diffrent Species, tissues and Sequencing Platforms.
+     1) Six GEO datasets with diffrent species, tissues and sequencing platforms.
   
-     2) Thirteen Alzheimer's disease datasets with different brain regions.
+     2) Thirteen Alzheimer's Disease(AD) datasets from different brain regions.
 
-- **DCPR_codes**: Source code for DCPR model, and main.py is the main entrance of the DCPR framework.
+- **DCPR_codes**: Source code for DCPR model.
+- preprocess.py:
+- main.py
+- result.py:
+- 
 
 - **Visualization**: Scripts for data visualization, including Cumulative distribution functions (CDFs) for model performance evaluation, Gene expression fitting curves, and Bar plots.
 
