@@ -572,10 +572,11 @@ def read_and_preprocess(matrix, time_all, seed_gene_table, fold_name):
 def load_and_preprocess_data(data_path, time_path, seedgene_path, output_dir):
     """ Load_and_preprocess_data """    
     data = pd.read_csv(data_path)
-    if time_path is not None:
+    if time_path is not None and time_path != 'time':
         times = pd.read_csv(time_path)
     elif time_path == 'time':
         times = np.array(data.columns[1:])
+        times = pd.to_numeric(times, errors='coerce')
         times = pd.DataFrame(times.astype(float).T)
     else:
         times = None
