@@ -85,7 +85,7 @@ python run.py --data_path --time_path --seedgene_path --output_dir
  
 --For example: 
   
-python run.py --data_path data/GSE161566.csv --time_path data/GSE161566_time.csv --seedgene_path data/GSE161566_seed_genes.xlsx --output_dir results/results_final
+python run.py --data_path Datasets/Real datasets/GEO datasets/GSE161566.csv --time_path Datasets/Real datasets/GEO datasets/GSE161566_time.csv --seedgene_path Supplementary files/Seed genes/GSE161566_seed_genes.xlsx --output_dir results_final
 
 ## 4.  Output
 
