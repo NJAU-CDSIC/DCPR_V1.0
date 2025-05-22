@@ -70,7 +70,9 @@ See environment.yaml for details.
 
 ## 2. Datasets
 
-Download the datasets from the folder Datasets.
+Download Thirteen Alzheimer's Disease(AD) datasets from the following links:
+
+-  /Datasets/Raw_data: https://figshare.com/s/32c01fab4dc9608273de
 
 
 
