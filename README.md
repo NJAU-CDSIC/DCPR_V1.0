@@ -46,7 +46,7 @@ The folders in the DCPR repository:
 
   ​	CHIRAL: https://github.com/naef-lab/CHIRAL.git
 
-    CYCLOPS: https://github.com/cyclops-ui/cyclops.git
+    CYCLOPS: https://github.com/ranafi/CYCLOPS.git
 
     (The python code of CYCLOPS is also provied by Cyclum.)
 
