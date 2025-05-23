@@ -494,20 +494,6 @@ def compute_error_matrices(original, reconstructed):
     return error_matrix, std_error_matrix, slope_error
 
 
-def save_results(fold_name, **kwargs):
-    """
-    Save all results to CSV files in specified folder.
-    
-    Args:
-        fold_name (str): Directory to save results
-        kwargs: Dictionary of {filename: data} pairs to save
-    """
-    for name, data in kwargs.items():
-        df = pd.DataFrame(data)
-        os.makedirs(f"{fold_name}/草稿",exist_ok = True)
-        filepath = f"{fold_name}/草稿/{name}.csv"
-        df.to_csv(filepath, index=False)
-
 
 def read_and_preprocess(matrix, time_all, seed_gene_table, fold_name):
     """
@@ -569,12 +555,12 @@ def read_and_preprocess(matrix, time_all, seed_gene_table, fold_name):
 
 
 
-def load_and_preprocess_data(data_path, time_path, seedgene_path, output_dir):
+def load_and_preprocess_data(X, V, S, O):
     """ Load_and_preprocess_data """    
-    data = pd.read_csv(data_path)
-    if time_path is not None and time_path != 'time':
-        times = pd.read_csv(time_path)
-    elif time_path == 'time':
+    data = pd.read_csv(X)
+    if V is not None and V != 'time':
+        times = pd.read_csv(V)
+    elif V == 'time':
         times = np.array(data.columns[1:])
         times = pd.to_numeric(times, errors='coerce')
         times = pd.DataFrame(times.astype(float).T)
@@ -582,14 +568,14 @@ def load_and_preprocess_data(data_path, time_path, seedgene_path, output_dir):
         times = None
     else:
         times = None
-    if seedgene_path is not None:
-        seedgene = pd.read_excel(seedgene_path)
+    if S is not None:
+        seedgene = pd.read_excel(S)
     else:
         seedgene = None
     if times is not None:
-        shuffled_data, shuffled_times = shuffle_time_series(data, times, output_dir)
+        shuffled_data, shuffled_times = shuffle_time_series(data, times, O)
     else:
         shuffled_data, shuffled_times = data, times
-    processed_data = read_and_preprocess(shuffled_data, shuffled_times, seedgene, output_dir)
+    processed_data = read_and_preprocess(shuffled_data, shuffled_times, seedgene, O)
 
     return processed_data
