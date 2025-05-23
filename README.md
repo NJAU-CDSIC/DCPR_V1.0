@@ -82,11 +82,11 @@ To run the DCPR model, the input parameters include expression matrix X, time st
 
 --Command line:
 
-python run.py --data_path --time_path --seedgene_path --output_dir 
+python run.py --X --V --S --O 
  
 --For example: 
   
-python run.py --data_path Datasets/Real datasets/GEO datasets/GSE161566.csv --time_path Datasets/Real datasets/GEO datasets/GSE161566_time.csv --seedgene_path Supplementary files/Seed genes/GSE161566_seed_genes.xlsx --output_dir results_final
+python run.py --X Datasets/Real datasets/GEO datasets/GSE161566.csv --V Datasets/Real datasets/GEO datasets/GSE161566_time.csv --S Supplementary files/Seed genes/GSE161566_seed_genes.xlsx --O results_final
 
 ## 4.  Output
 
