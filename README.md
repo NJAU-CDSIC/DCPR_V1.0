@@ -25,6 +25,8 @@ The folders in the DCPR repository:
   - preprocess.py: This script is used to prepare data.
   
   - result.py: This script is used to generates predictive outputs from the DCPR model.
+ 
+  - diffCirca_AD.py: This script is used to generates differential circadian patterns of genes.
 
 - **Visualization**: Scripts for data visualization, including circadian curves (cosine model fitting), sample plots (predicted and real time),  model performance (CDF curves, and accuracy plots).
   
