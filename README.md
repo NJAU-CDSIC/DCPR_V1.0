@@ -72,9 +72,13 @@ See environment.yaml for details.
 
 ## 2. Datasets
 
-Download Thirteen Alzheimer's Disease(AD) datasets from the following links:
-
--  /Datasets/Real datasets/AD datasets: https://figshare.com/s/32c01fab4dc9608273de
+  1) Real datasets
+     
+     A. 13 AD transcriptomic datasets can be downloaded from figshare: (https://figshare.com/s/32c01fab4dc9608273de)
+     
+     B.  6 timed GEOdatasets for performance comparision.
+ 
+  2) Synthetic datasets: There are 18 simulated datasets used in this study. Each dataset includes 1000 genes.
 
 
 
