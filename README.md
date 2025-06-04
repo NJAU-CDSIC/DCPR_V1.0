@@ -74,7 +74,7 @@ See environment.yaml for details.
 
   1) Real datasets
      
-     A.  13 AD transcriptomic datasets can be downloaded from figshare: (https://figshare.com/s/32c01fab4dc9608273de)
+     A.  13 AD transcriptomic datasets can be downloaded from figshare: (https://doi.org/10.6084/m9.figshare.29125904)
      
      B.  6 timed GEOdatasets for performance comparision.
  
