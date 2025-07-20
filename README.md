@@ -14,7 +14,7 @@ The folders in the DCPR repository:
   
      1) Six GEO datasets with diffrent species, tissues and sequencing platforms.
   
-     2) Thirteen Alzheimer's Disease(AD) datasets from different brain regions.
+     2) Three Alzheimer's Disease(AD) datasets from different brain regions: Hippocampus, Frontal Cortex and Entorhinal Cortex.
 
 - **DCPR_codes**: Source code for DCPR model.
   
@@ -74,7 +74,7 @@ See environment.yaml for details.
 
   1) Real datasets
      
-     A.  13 AD transcriptomic datasets can be downloaded from figshare: (https://doi.org/10.6084/m9.figshare.29125904)
+     A.  3 AD transcriptomic datasets can be downloaded from figshare: (https://doi.org/10.6084/m9.figshare.29125904)
      
      B.  6 timed GEOdatasets for performance comparision.
  
