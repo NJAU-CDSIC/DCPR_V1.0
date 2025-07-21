@@ -74,13 +74,13 @@ See environment.yaml for details.
 
   1) Real datasets
      
-     A.  3 AD transcriptomic datasets can be downloaded from figshare: (https://doi.org/10.6084/m9.figshare.29125904)
+     A.  3 AD transcriptomic datasets are provided in Datasets/Real datasets/AD datasets.
      
-     B.  6 timed GEOdatasets for performance comparision.
+     B.  6 timed GEOdatasets for performance comparision are available in Datasets/Real datasets/GEO datasets.
  
   2) Synthetic datasets: There are 18 simulated datasets used in this study. Each dataset includes 1000 genes.
 
-
+  In addition, you can also download all datasets through figshare: (https://doi.org/10.6084/m9.figshare.29125904).
 
 ## 3. Run
 
