@@ -14,7 +14,7 @@ The folders in the DCPR repository:
   
      1) Six GEO datasets with diffrent species, tissues and sequencing platforms.
   
-     2) Three Alzheimer's Disease(AD) datasets from different brain regions: Hippocampus, Frontal Cortex and Entorhinal Cortex.
+     2) Three Alzheimer's Disease(AD) datasets from different brain regions: Entorhinal Cortex (EC), Hippocampus (HIP), and Frontal Cortex (FC).
 
 - **DCPR_codes**: Source code for DCPR model.
   
@@ -80,7 +80,7 @@ See environment.yaml for details.
  
   2) Synthetic datasets: There are 18 simulated datasets used in this study. Each dataset includes 1000 genes.
 
-  In addition, you can also download all datasets through figshare: (https://doi.org/10.6084/m9.figshare.29125904).
+  Also, you can download all datasets through figshare: (https://doi.org/10.6084/m9.figshare.29125904).
 
 ## 3. Run
 
