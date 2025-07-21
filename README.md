@@ -80,7 +80,7 @@ See environment.yaml for details.
  
   2) Synthetic datasets: There are 18 simulated datasets used in this study. Each dataset includes 1000 genes.
 
-  Also, you can download all datasets through figshare: (https://doi.org/10.6084/m9.figshare.29125904).
+     Also, you can download all datasets through figshare: (https://doi.org/10.6084/m9.figshare.29125904).
 
 ## 3. Run
 
