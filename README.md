@@ -1,7 +1,7 @@
 
 # **DCPR** Code Repository
 
-This is a repository to deposit the code and data for **DCPR** model. 
+This is a repository to deposit the code and data for **DCPR** model. DCPR is a deep learning framework for circadian phase reconstruction.
 ---
 
 The folders in the DCPR repository:
