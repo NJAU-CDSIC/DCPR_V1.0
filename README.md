@@ -8,7 +8,7 @@ The folders in the DCPR repository:
 
 - **Datasets**: 
 
-  a. **Synthetic datasets**: Nine synthetic datasets differ in varying experimental conditions (eg. time span, sampling interval and noise levels.
+  a. **Synthetic datasets**: Nine synthetic datasets differ in varying experimental conditions (eg. time span, sampling interval and noise levels).
 
   b. **Real datasets**:
   
