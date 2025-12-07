@@ -8,7 +8,7 @@ The folders in the DCPR repository:
 
 - **Datasets**: 
 
-  a. **Synthetic datasets**: Nine synthetic datasets differ in varying experimental conditions (e.g., time span, sampling interval, and noise levels).
+  a. **Synthetic datasets**: Twelve synthetic datasets differ in varying experimental conditions (e.g., time span, sampling interval, and noise levels).
 
   b. **Real datasets**:
   
@@ -16,7 +16,7 @@ The folders in the DCPR repository:
   
      2) Three Alzheimer's Disease(AD) datasets from different brain regions: Entorhinal Cortex (EC), Hippocampus (HIP), and Frontal Cortex (FC).
         
-     3) Three additional GEO datasets for model test: the transcriptomic profiles of Bmal1 knockout mouse model, normal aging, human skeletal muscle.
+     3) Three additional GEO datasets for model test: the transcriptomic profiles of Bmal1 knockout and Cry1/2 knockout mouse model, normal aging, human skeletal muscle.
 
 - **DCPR_codes**: Source code for DCPR model.
   
