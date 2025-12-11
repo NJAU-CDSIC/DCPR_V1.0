@@ -16,7 +16,7 @@ The folders in the DCPR repository:
   
      2) Three Alzheimer's Disease(AD) datasets from different brain regions: Entorhinal Cortex (EC), Hippocampus (HIP), and Frontal Cortex (FC).
         
-     3) Three additional GEO datasets for model test: the transcriptomic profiles of Bmal1 knockout and Cry1/2 knockout mouse model, normal aging, human skeletal muscle.
+     3) Four additional GEO datasets for model test: the transcriptomic profiles of Bmal1 knockout and Cry1/2 knockout mouse model, normal aging, human skeletal muscle.
 
 - **DCPR_codes**: Source code for DCPR model.
   
@@ -76,7 +76,7 @@ See environment.yaml for details.
 
   1) Real datasets
      
-     A.  4 AD transcriptomic datasets are provided in Datasets/Real datasets/AD datasets.
+     A.  3 AD transcriptomic datasets are provided in Datasets/Real datasets/AD datasets.
      
      B.  6 timed GEOdatasets for performance comparision are available in Datasets/Real datasets/GEO datasets.
  
