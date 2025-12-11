@@ -76,7 +76,7 @@ See environment.yaml for details.
 
   1) Real datasets
      
-     A.  3 AD transcriptomic datasets are provided in Datasets/Real datasets/AD datasets.
+     A.  4 AD transcriptomic datasets are provided in Datasets/Real datasets/AD datasets.
      
      B.  6 timed GEOdatasets for performance comparision are available in Datasets/Real datasets/GEO datasets.
  
