@@ -80,7 +80,7 @@ See environment.yaml for details.
      
      B.  6 timed GEO datasets for performance comparision are available in Datasets/Real datasets/GEO datasets.
 
-     C.  4 timed transcriptomic datasets for performance comparision are available in Datasets/Transcriptomic datasets.
+     C.  4 additional timed GEO datasets for for model test are available in Datasets/Transcriptomic datasets.
  
   3) Synthetic datasets: There are 12 simulated datasets used in this study. Each dataset includes 1000 genes.
 
