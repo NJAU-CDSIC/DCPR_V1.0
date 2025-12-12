@@ -78,9 +78,11 @@ See environment.yaml for details.
      
      A.  3 AD transcriptomic datasets are provided in Datasets/Real datasets/AD datasets.
      
-     B.  6 timed GEOdatasets for performance comparision are available in Datasets/Real datasets/GEO datasets.
+     B.  6 timed GEO datasets for performance comparision are available in Datasets/Real datasets/GEO datasets.
+
+     C.  4 timed transcriptomic datasets for performance comparision are available in Datasets/Transcriptomic datasets.
  
-  2) Synthetic datasets: There are 18 simulated datasets used in this study. Each dataset includes 1000 genes.
+  3) Synthetic datasets: There are 12 simulated datasets used in this study. Each dataset includes 1000 genes.
 
   Also, you can download all datasets through figshare: https://doi.org/10.6084/m9.figshare.29125904.
 
